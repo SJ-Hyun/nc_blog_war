@@ -62,6 +62,7 @@ public class BlogController {
 
         //model.addAttribute("blog", blogService.findById(blogId));
 
+        blogService.viewUpdate(blog);
         // /WEB-INF/views/blog/detail.jsp
         return "blog/detail";
     }

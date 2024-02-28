@@ -21,4 +21,7 @@ public interface BlogService {
 
     // 특정 포스팅을 수정하는 메서드 update()
     void update(Blog blog);
+
+    // 추가 기능 : 글 목록에서 detail로 조회 시 접속 카운트
+    long viewUpdate(Blog blog);
 }
